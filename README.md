@@ -1,16 +1,51 @@
-# React + Vite
+# 📉 Kcal Tracker (Calculadora de Calorias)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Ferramenta para monitoramento e totalização de consumo calórico diário com base em inputs do usuário.
 
-Currently, two official plugins are available:
+![Status do Projeto](https://img.shields.io/badge/STATUS-CONCLUÍDO-brightgreen?style=for-the-badge)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💻 Sobre o Projeto
 
-## React Compiler
+O **Kcal Tracker** é uma aplicação web desenvolvida para demonstrar a habilidade de **captura, processamento e totalização de dados de formulário** em tempo real.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O objetivo é permitir que o usuário insira seus itens de consumo calórico ao longo do dia, recebendo o cálculo da soma total de forma instantânea.
 
-## Expanding the ESLint configuration
+### 🎯 Destaques Técnicos
+- **Lógica de Totalização:** Implementação de funções de agregação para cálculo da soma total de inputs.
+- **Formulários Controlados:** Gerenciamento de estado dos inputscom React.
+- **Validação:** Garantia de que apenas valores numéricos válidos sejam processados.
+- **Feedback Visual:** Resultados atualizados de forma reativa (instantânea) na interface.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Funcionalidades
+
+- [x] **Cálculo de Soma Total:** Totalização instantânea do consumo do dia.
+- [x] **Reset:** Funcionalidade para limpar o registro e começar novo dia.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Front-end:** ReactJS + Vite
+- **Estilização:** CSS3 Moderno (Layout Responsivo)
+- **Lógica:** JavaScript (ES6+)
+
+---
+
+## 🚀 Como rodar o projeto
+
+```bash
+# 1. Clone o repositório
+$ git clone [https://github.com/pbotelhodev/kcal-calculator.git](https://github.com/pbotelhodev/kcal-calculator.git)
+
+# 2. Acesse a pasta
+$ cd kcal-calculator
+
+# 3. Instale as dependências
+$ npm install
+
+# 4. Execute o projeto
+$ npm run dev
