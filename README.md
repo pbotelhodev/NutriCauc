@@ -1,4 +1,4 @@
-# 📉 Kcal Tracker (Calculadora de Calorias)
+# 🍎 NutriCalc (Calculadora de Calorias)
 
 > Ferramenta para monitoramento e totalização de consumo calórico diário com base em inputs do usuário.
 
